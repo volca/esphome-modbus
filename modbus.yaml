@@ -15,9 +15,9 @@ esphome:
     version: "1.0"
 
 esp32:
-  board: esp32dev
+  board: esp32-c3-devkitm-1
   framework:
-    type: arduino
+    type: esp-idf
 
 # To be able to get logs from the device via serial and api.
 logger:
