@@ -62,7 +62,7 @@ modbus_controller:
     modbus_id: mod_bus_demo
     command_throttle: 200ms
     setup_priority: -10
-    update_interval: ${updates}
+    update_interval: 31s
 
 sensor:
   - platform: modbus_controller
