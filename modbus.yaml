@@ -22,7 +22,7 @@ esp32:
   board: esp32-c3-devkitm-1
   framework:
     type: arduino
-    version: "2.0.3"
+    platform_version: "4.2.0"
 
 # To be able to get logs from the device via serial and api.
 logger:
