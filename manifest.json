@@ -5,7 +5,7 @@
   "new_install_skip_erase": false,
   "builds": [
     {
-      "chipFamily": "ESP32-C3",
+      "chipFamily": "ESP32C3",
       "parts": [
         {
           "path": "modbus-esp32/modbus-esp32.bin",
