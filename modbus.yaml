@@ -11,10 +11,6 @@ esphome:
   platformio_options:
     board_build.variant: esp32c3
     board_build.flash_mode: dio
-    platform_packages:
-      - framework-arduinoespressif32 @ https://github.com/espressif/arduino-esp32.git#2.0.3
-    platform:
-      - https://github.com/platformio/platform-espressif32.git#feature/arduino-upstream
 
   # This will allow for (future) project identification,
   # configuration and updates.
@@ -25,7 +21,8 @@ esphome:
 esp32:
   board: esp32-c3-devkitm-1
   framework:
-    type: arduino
+    type: esp-idf
+    platform_version: "4.2.0"
 
 # To be able to get logs from the device via serial and api.
 logger:
