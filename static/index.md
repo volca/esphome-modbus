@@ -1,6 +1,6 @@
 # About
 
-Add some information about your project here.
+Modbus gateway on ESP32 C3
 
 # Installation
 
