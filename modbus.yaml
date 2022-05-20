@@ -77,7 +77,7 @@ sensor:
   - platform: modbus_controller
     modbus_controller_id: demo
     name: "Maximum Voltage"
-    address: 0xA
+    address: 0x1
     bitmask: 0xFF00
     unit_of_measurement: "V"
     register_type: holding
