@@ -8,6 +8,9 @@ esphome:
   # so you can use a single firmware for all devices
   name_add_mac_suffix: true
 
+  platformio_options:
+    board_build.flash_mode: dio
+
   # This will allow for (future) project identification,
   # configuration and updates.
   project:
