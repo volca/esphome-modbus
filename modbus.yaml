@@ -58,6 +58,8 @@ uart:
   rx_pin: 5
   baud_rate: 9600
   stop_bits: 1
+  debug:
+    direction: BOTH
 
 modbus:
   #flow_control_pin: 23
