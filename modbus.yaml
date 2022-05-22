@@ -76,10 +76,10 @@ modbus_controller:
 sensor:
   - platform: modbus_controller
     modbus_controller_id: demo
-    name: "Maximum Voltage"
+    name: "Temperature"
     address: 0x3
-    bitmask: 0x1
-    unit_of_measurement: "V"
+    bitmask: 0x0001
+    unit_of_measurement: "°C"
     register_type: holding
     value_type: U_WORD
     accuracy_decimals: 0
