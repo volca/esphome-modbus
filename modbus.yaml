@@ -77,8 +77,7 @@ sensor:
   - platform: modbus_controller
     modbus_controller_id: demo
     name: "Temperature"
-    address: 0x3
-    bitmask: 0x0001
+    address: 0x0001
     unit_of_measurement: "°C"
     register_type: holding
     value_type: U_WORD
