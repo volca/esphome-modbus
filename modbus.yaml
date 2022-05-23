@@ -51,7 +51,7 @@ wifi:
 
 # Sets up the improv via serial client for Wi-Fi provisioning.
 # Handy if your device has a usb port for the user to add credentials when they first get it.
-improv_serial:
+#improv_serial:
 
 uart:
   id: mod_bus
