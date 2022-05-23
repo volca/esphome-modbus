@@ -32,7 +32,7 @@ logger:
 api:
 
 # OTA is required for Over-the-Air updating
-#ota:
+ota:
 
 # This should point to the public location of this yaml file.
 dashboard_import:
@@ -87,4 +87,4 @@ sensor:
     accuracy_decimals: 0
     filters:
       - lambda: |-
-          return (x - 400) / 100;
+          return (x - 400) / 10;
