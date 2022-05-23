@@ -26,6 +26,7 @@ esp32:
 
 # To be able to get logs from the device via serial and api.
 logger:
+  hardware_uart: USB_SERIAL_JTAG
 
 # API is a requirement of the dashboard import.
 api:
@@ -84,3 +85,6 @@ sensor:
     register_type: holding
     value_type: U_WORD
     accuracy_decimals: 0
+    filters:
+      - lambda: |-
+        return (x - 400) / 100;
