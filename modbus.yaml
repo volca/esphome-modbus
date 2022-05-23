@@ -87,4 +87,4 @@ sensor:
     accuracy_decimals: 0
     filters:
       - lambda: |-
-        return (x - 400) / 100;
+          return (x - 400) / 100;
