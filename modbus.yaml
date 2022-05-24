@@ -45,7 +45,8 @@ wifi:
 
 # In combination with the `ap` this allows the user
 # to provision wifi credentials to the device.
-captive_portal:
+# Work with arduino only
+#captive_portal:
 
 ##########################################################
 # Most projects should not remove anything from above here
