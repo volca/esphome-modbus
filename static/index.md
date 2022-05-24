@@ -8,4 +8,4 @@ You can use the button below to install the pre-built firmware directly to your 
 
 <esp-web-install-button manifest="./manifest.json"></esp-web-install-button>
 
-<script type="module" src="https://unpkg.com/@volca/esp-web-tools@8.0.4/dist/web/install-button.js?module"></script>
+<script type="module" src="https://unpkg.com/esp-web-tools@8.0.2/dist/web/install-button.js?module"></script>
