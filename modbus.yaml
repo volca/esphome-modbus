@@ -39,6 +39,9 @@ dashboard_import:
   package_import_url: github://volca/esphome-modbus/modbus.yaml@main
 
 wifi:
+  # Set up your WiFi SSID and password first
+  ssid: ${{ secrets.MY_WIFI_SSID }}
+  password: ${{ secrets.MY_WIFI_PASSWORD }}
   # Set up a wifi access point using the device name above
   ap:
     password: "12345678"
