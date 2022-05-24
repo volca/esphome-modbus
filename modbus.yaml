@@ -40,8 +40,8 @@ dashboard_import:
 
 wifi:
   # Set up your WiFi SSID and password first
-  ssid: ${{ secrets.MY_WIFI_SSID }}
-  password: ${{ secrets.MY_WIFI_PASSWORD }}
+  ssid: YourNetworkSSID
+  password: YourSafePassword
   # Set up a wifi access point using the device name above
   ap:
     password: "12345678"
