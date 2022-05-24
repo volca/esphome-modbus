@@ -1,5 +1,5 @@
 {
-  "chipFamily": "ESP32C3",
+  "chipFamily": "ESP32-C3",
   "parts": [
     {
       "path": "modbus-esp32/modbus-esp32.bin",
